@@ -1,0 +1,13 @@
+Gazebo Simulation
+ └── Robot + Gripper
+ └── Eye-in-Hand Camera
+        ↓
+Perception Node
+        ↓
+TF Transformation
+        ↓
+Task Planner (TAMP)
+        ↓
+MoveIt 2 Motion Planner
+        ↓
+Execution Layer
